@@ -1,2 +1,3 @@
-for x in "banana":
-    print(x)
+# pr(x)
+print("percobaan")
+Print("percobaan")
