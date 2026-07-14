@@ -1,10 +1,21 @@
-# Create the variable
-txt = "Hello, World!"
-# Print characters from index 2 to 5
-print(txt[3:5])
-# Print in upper case
-print(txt.upper())
-# Create the name variable
-name = "Python"
-# Print using an f-string
-print(f"I love {name}")
+class Mahasiswa:
+    def __init__(self, nama, nim, jurusan):
+        self.nama = nama
+        self.nim = nim
+        self.jurusan = jurusan
+        self.status = "Aktif" 
+      
+    def perkenalan(self):
+        return f"Halo, saya {self.nama} dengan NIM {self.nim} dari jurusan {self.jurusan}"
+    
+    def ubah_status(self, status_baru):
+        self.status = status_baru
+        print(f"Status {self.nama} diubah menjadi {self.status}")
+
+mahasiswa1 = Mahasiswa("Budi", "12345", "Informatika")
+mahasiswa2 = Mahasiswa("Ani", "67890", "Sistem Informasi")
+
+print(mahasiswa1.nama)
+print(mahasiswa1.perkenalan())
+
+mahasiswa1.ubah_status("Cuti")
