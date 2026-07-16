@@ -1,9 +1,17 @@
-old = 20
-i = "Broo" if old >= 18 else "Children"
+#Exercise 1: Arithmetic Operators
 
-print(i)
+# Create variables
+a, b = 15, 4
 
-if old >= 18:
-    print(f"You are a master, {i}.")
-else:
-    print(f"You are a minor, {i}.")
+# Print modulus
+print(a%b)
+
+# Print floor division
+print(a//b)
+
+# Print power
+print(a**b)
+
+# Add 10 to a
+a += 10
+print(a)
