@@ -1,17 +1,16 @@
-#Exercise 1: Arithmetic Operators
+# Study lists, tuples, sets, and dictionaries in Python
 
-# Create variables
-a, b = 15, 4
+list = ["banana", "apple", "orange", "grape", "kiwi", "banana"]
+tuple = ("banana", "apple", "orange", "grape", "kiwi", "banana")
+set = {"banana", "apple", "orange", "grape", "kiwi", "banana"}
+dictionary = {"fruit1": "banana", "fruit2": "apple", "fruit3": "orange", "fruit4": "grape", "fruit5": "kiwi", "fruit6": "banana"}
 
-# Print modulus
-print(a%b)
-
-# Print floor division
-print(a//b)
-
-# Print power
-print(a**b)
-
-# Add 10 to a
-a += 10
-print(a)
+print(list)
+print(tuple)
+print(set)
+print(dictionary)
+print("================================")
+print(len(list))
+print(len(tuple))
+print(len(set))
+print(len(dictionary))
