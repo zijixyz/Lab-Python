@@ -1,17 +1,19 @@
 a = ["apple", "banana"]
 b = a
 
-print(a)  # ['apple', 'banana']
-print(b)  # ['apple', 'banana']
+print(a)
+print(b)
+
 print("=============")
 
-a.extend(["cherry"])  # b ikut berubah
+a.extend(["cherry"])
 
-print(a)  # ['apple', 'banana', 'cherry']
-print(b)  # ['apple', 'banana', 'cherry']
+print(a)
+print(b)
+
 print("=============")
 
-a = a + ["durian"]    # a jadi list baru, b tetap lama
+a = a + ["durian"]
 
-print(a)  # ['apple', 'banana', 'cherry', 'durian']
-print(b)  # ['apple', 'banana', 'cherry'] (tidak berubah)
+print(a)
+print(b)
