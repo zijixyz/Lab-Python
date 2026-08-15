@@ -1,9 +1,6 @@
-tugas = []
+tuple = ("example1", "example2", "example3")
 
-while input("Apakah Anda ingin menambahkan tugas? (Iya/Tidak): ").lower() == "iya":
-    tugas_baru = input("Masukkan tugas baru: ")
-    tugas.append(tugas_baru)
-
-    print(f"\nTugas {tugas_baru} berhasil ditambahkan.\n")
-
-print(f"\nDaftar Tugas: {tugas}")
+if "example1" in tuple:
+    print("example1 is in the tuple")
+else:
+    print("example1 is not in the tuple")
