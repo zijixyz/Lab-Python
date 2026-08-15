@@ -1,6 +1,12 @@
-tuple = ("example1", "example2", "example3")
-
-if "example1" in tuple:
-    print("example1 is in the tuple")
-else:
-    print("example1 is not in the tuple")
+x = (1, 2, 3)
+print(x)  # Output: (1, 2, 3)
+print(type(x))  # Output: <class 'tuple'>
+x = list(x)
+print(x)  # Output: [1, 2, 3]
+print(type(x))  # Output: <class 'list'>
+x[0] = 10
+print(x)  # Output: [10, 2, 3]
+print(type(x))  # Output: <class 'list'>
+x = tuple(x)
+print(x)  # Output: (10, 2, 3)
+print(type(x))  # Output: <class 'tuple'>
