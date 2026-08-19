@@ -1,30 +1,45 @@
-# thistuple = ("apple", "banana", "cherry")
-# i = 0
+# set = {"apple", "banana", "cherry"}
+# x = 0
+# while x < 2:
+#     print(set)
+#     x += 1
 
-# while i < len(thistuple):
-#     print(thistuple[i])
-#     i += 1
+# myset = {"apple", "banana", "cherry"}
+# for x in myset:
+#     print(x)
 
-# tuple1 = ("apple", "banana", "cherry")
-# tuple2 = ("orange", "kiwi", "melon", "mango")
-# tuple3 = tuple1 * 2 + tuple2
-# print(tuple3)
+# set = {True, False, None, 1, 2, 3, 4, 5, 0, -1, -2, -3, -4, -5}
+# print(set)
 
-# # Create the tuple
-# fruits = ("apple","banana","cherry")
-# # Print the second item
-# print(fruits[1])
-# # Print the number of items
-# print(len(fruits))
-# # Unpack the tuple
-# ("a","b","c") = fruits
-# # Print b
-# print(fruits[1])
+# set = {"apple", "banana", "cherry"}
 
-# fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+# for x in set:
+#     print(x)
 
-# (green, *yellow, red) = fruits
+# if "banana" in set:
+#     print("Yes, banana is in the set")
 
-# print(green)
-# print(yellow)
-# print(red)
+# if "banana" not in set:
+#     print("No, banana is not in the set")
+# else:
+#     print("Yes, banana is in the set")
+
+# set = {"apple", "banana", "cherry"}
+# print("banana" not in set)
+
+# set = {"apple", "banana", "cherry"}
+# set.add("orange")
+# print(set)
+
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"orange", "kiwi", "melon"}
+# set1.update(set2) 
+# print(set1)
+# print(set2)
+
+# set1 = {"apple", "banana", "cherry", "orange", "kiwi", "melon", 0}
+# set2 = {"orange", "kiwi", "melon", False}
+# set3 = set1.difference(set2)
+# print(set1)
+# print(set2)
+# print(set3)
