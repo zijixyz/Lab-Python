@@ -39,7 +39,38 @@
 
 # set1 = {"apple", "banana", "cherry", "orange", "kiwi", "melon", 0}
 # set2 = {"orange", "kiwi", "melon", False}
+
+
 # set3 = set1.difference(set2)
 # print(set1)
 # print(set2)
 # print(set3)
+
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
+
+# set3 = set1.difference(set2)
+
+# print(set3)
+
+# set1 = {"a", "b", "c", "g"}
+# set2 = {"g", "f", "d", "b"}
+# set1.update(set2)
+
+# print(set1)
+# print(set2)
+
+# set3 = set1.intersection(set2)
+
+# print(set1)
+# print(set2)
+# print(set3)
+
+# set1 = {"apple", "banana", "cherry"}
+# set2 = {"google", "microsoft", "apple"}
+
+# set1.intersection_update(set2)
+# set1.symmetric_difference_update(set2)
+
+# print(set1)
+# print(set2)
